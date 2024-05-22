@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("ProjectBlazor")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Portafolio Programación Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+672140a24d66c12ecb411771f8f1f3463ab47a38")]
-[assembly: System.Reflection.AssemblyProductAttribute("ProjectBlazor")]
-[assembly: System.Reflection.AssemblyTitleAttribute("ProjectBlazor")]
+[assembly: System.Reflection.AssemblyProductAttribute("Portafolio Programación Web")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Portafolio Programación Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

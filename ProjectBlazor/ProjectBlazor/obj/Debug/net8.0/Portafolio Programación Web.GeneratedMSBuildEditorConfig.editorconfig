@@ -1,0 +1,99 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Portafolio_Programación_Web
+build_property.RootNamespace = Portafolio_Programación_Web
+build_property.ProjectDir = C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/dayar/OneDrive/Documentos/Visual Studio 2022/source/repos/ProjectBlazor/ProjectBlazor/ProjectBlazor/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dayar/OneDrive/Documentos/Visual Studio 2022/source/repos/ProjectBlazor/ProjectBlazor/ProjectBlazor/Components/Pages/DiasMes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEaWFzTWVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dayar/OneDrive/Documentos/Visual Studio 2022/source/repos/ProjectBlazor/ProjectBlazor/ProjectBlazor/Components/Pages/Divisas.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEaXZpc2FzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dayar/OneDrive/Documentos/Visual Studio 2022/source/repos/ProjectBlazor/ProjectBlazor/ProjectBlazor/Components/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dayar/OneDrive/Documentos/Visual Studio 2022/source/repos/ProjectBlazor/ProjectBlazor/ProjectBlazor/Components/Pages/Experiencia.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFeHBlcmllbmNpYS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dayar/OneDrive/Documentos/Visual Studio 2022/source/repos/ProjectBlazor/ProjectBlazor/ProjectBlazor/Components/Pages/Habilidades.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIYWJpbGlkYWRlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dayar/OneDrive/Documentos/Visual Studio 2022/source/repos/ProjectBlazor/ProjectBlazor/ProjectBlazor/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dayar/OneDrive/Documentos/Visual Studio 2022/source/repos/ProjectBlazor/ProjectBlazor/ProjectBlazor/Components/Pages/Inventario.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xJbnZlbnRhcmlvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dayar/OneDrive/Documentos/Visual Studio 2022/source/repos/ProjectBlazor/ProjectBlazor/ProjectBlazor/Components/Pages/ListaNumeros.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMaXN0YU51bWVyb3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dayar/OneDrive/Documentos/Visual Studio 2022/source/repos/ProjectBlazor/ProjectBlazor/ProjectBlazor/Components/Pages/MiHistoria.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xNaUhpc3RvcmlhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dayar/OneDrive/Documentos/Visual Studio 2022/source/repos/ProjectBlazor/ProjectBlazor/ProjectBlazor/Components/Pages/Musica.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xNdXNpY2EucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dayar/OneDrive/Documentos/Visual Studio 2022/source/repos/ProjectBlazor/ProjectBlazor/ProjectBlazor/Components/Pages/NumerosPrimos.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xOdW1lcm9zUHJpbW9zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dayar/OneDrive/Documentos/Visual Studio 2022/source/repos/ProjectBlazor/ProjectBlazor/ProjectBlazor/Components/Pages/To-Do.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUby1Eby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dayar/OneDrive/Documentos/Visual Studio 2022/source/repos/ProjectBlazor/ProjectBlazor/ProjectBlazor/Components/Pages/TOP.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUT1AucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dayar/OneDrive/Documentos/Visual Studio 2022/source/repos/ProjectBlazor/ProjectBlazor/ProjectBlazor/Components/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dayar/OneDrive/Documentos/Visual Studio 2022/source/repos/ProjectBlazor/ProjectBlazor/ProjectBlazor/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dayar/OneDrive/Documentos/Visual Studio 2022/source/repos/ProjectBlazor/ProjectBlazor/ProjectBlazor/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dayar/OneDrive/Documentos/Visual Studio 2022/source/repos/ProjectBlazor/ProjectBlazor/ProjectBlazor/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-a7uflqo2dc
+
+[C:/Users/dayar/OneDrive/Documentos/Visual Studio 2022/source/repos/ProjectBlazor/ProjectBlazor/ProjectBlazor/Components/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-pl4uok4z09
+
+[C:/Users/dayar/OneDrive/Documentos/Visual Studio 2022/source/repos/ProjectBlazor/ProjectBlazor/ProjectBlazor/Components/Pages/Estudiantes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFc3R1ZGlhbnRlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-3bijauqh9t
