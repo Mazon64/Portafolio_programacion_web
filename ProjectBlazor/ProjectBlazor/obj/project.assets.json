@@ -1335,9 +1335,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dayar\\OneDrive\\Documentos\\Visual Studio 2022\\source\\repos\\ProjectBlazor\\ProjectBlazor\\ProjectBlazor\\Portafolio Programación Web.csproj",
-      "projectName": "Portafolio Programación Web",
-      "projectPath": "C:\\Users\\dayar\\OneDrive\\Documentos\\Visual Studio 2022\\source\\repos\\ProjectBlazor\\ProjectBlazor\\ProjectBlazor\\Portafolio Programación Web.csproj",
+      "projectUniqueName": "C:\\Users\\dayar\\OneDrive\\Documentos\\Visual Studio 2022\\source\\repos\\ProjectBlazor\\ProjectBlazor\\ProjectBlazor\\ProjectBlazor.csproj",
+      "projectName": "ProjectBlazor",
+      "projectPath": "C:\\Users\\dayar\\OneDrive\\Documentos\\Visual Studio 2022\\source\\repos\\ProjectBlazor\\ProjectBlazor\\ProjectBlazor\\ProjectBlazor.csproj",
       "packagesPath": "C:\\Users\\dayar\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\dayar\\OneDrive\\Documentos\\Visual Studio 2022\\source\\repos\\ProjectBlazor\\ProjectBlazor\\ProjectBlazor\\obj\\",
       "projectStyle": "PackageReference",
@@ -1406,7 +1406,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
