@@ -1,0 +1,131 @@
+﻿@page "/musica"
+@rendermode InteractiveServer
+
+<h3>Música</h3>
+
+<h4>Lista de canciones</h4>
+
+<div class="form-floating mb-3">
+    <input type="text" class="form-control" id="floatingInput" @bind="_newCancion">
+    <label for="floatingInput">Cancion</label>
+</div>
+
+<div class="form-floating">
+    <input type="text" class="form-control mb-3" id="floatingPassword" @bind="_cancionModificada">
+    <label for="floatingInput">Cancion a modificar</label>
+</div>
+
+<button type="button" class="btn btn-primary mb-3" @onclick="AgregarCancion">Agregar</button>
+<button type="button" class="btn btn-info mb-3" @onclick="BuscarCancion">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-search" viewBox="0 0 16 16">
+        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+    </svg>
+</button>
+<button type="button" class="btn btn-warning mb-3" @onclick="Modi">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-pencil-square" viewBox="0 0 16 16">
+        <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+        <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z" />
+    </svg>
+</button>
+<button type="button" class="btn btn-secondary mb-3" @onclick="OCancionA">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-sort-alpha-down" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M10.082 5.629 9.664 7H8.598l1.789-5.332h1.234L13.402 7h-1.12l-.419-1.371zm1.57-.785L11 2.687h-.047l-.652 2.157z" />
+        <path d="M12.96 14H9.028v-.691l2.579-3.72v-.054H9.098v-.867h3.785v.691l-2.567 3.72v.054h2.645zM4.5 2.5a.5.5 0 0 0-1 0v9.793l-1.146-1.147a.5.5 0 0 0-.708.708l2 1.999.007.007a.497.497 0 0 0 .7-.006l2-2a.5.5 0 0 0-.707-.708L4.5 12.293z" />
+    </svg>
+</button>
+<button type="button" class="btn btn-secondary mb-3" @onclick="OCancionD">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-sort-alpha-up" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M10.082 5.629 9.664 7H8.598l1.789-5.332h1.234L13.402 7h-1.12l-.419-1.371zm1.57-.785L11 2.687h-.047l-.652 2.157z" />
+        <path d="M12.96 14H9.028v-.691l2.579-3.72v-.054H9.098v-.867h3.785v.691l-2.567 3.72v.054h2.645zm-8.46-.5a.5.5 0 0 1-1 0V3.707L2.354 4.854a.5.5 0 1 1-.708-.708l2-1.999.007-.007a.5.5 0 0 1 .7.006l2 2a.5.5 0 1 1-.707.708L4.5 3.707z" />
+    </svg>
+</button>
+
+@if (cancionesFiltradas.Count > 0)
+{
+    <ul class="list-group mt-3">
+        @foreach (var busqueda in cancionesFiltradas)
+        {
+            <li class="list-group-item">
+                @busqueda
+            </li>
+        }
+    </ul>
+}
+else{
+
+}
+
+@if (canciones.Count > 0)
+{
+    <ul class="list-group mt-3">
+        @foreach (var cancion in canciones)
+        {
+            <li class="list-group-item">
+                @cancion
+                <button type="button" class="btn btn-danger btn-sm float-end" @onclick="() => EliminarCancion(cancion)">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+                        <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0" />
+                    </svg>
+                </button>
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>Este lugar está muy vacío, agrega algunas canciones.</p>
+}
+@code {
+    private string? _cancionModificada;
+    private string? _newCancion;
+    private string? _filtro;
+    List<string> canciones = new List<string>();
+    List<string> cancionesFiltradas = new List<string>();
+
+    private void AgregarCancion()
+    {
+        if (!string.IsNullOrWhiteSpace(_newCancion))
+        {
+            canciones.Add(_newCancion);
+            _newCancion = string.Empty;
+        }
+    }
+
+    private void EliminarCancion(string cancion)
+    {
+        canciones.Remove(cancion);
+    }
+
+    private void OCancionA()
+    {
+        canciones = canciones.OrderBy(p => p).ToList();
+    }
+
+    private void OCancionD()
+    {
+        canciones = canciones.OrderByDescending(p => p).ToList();
+    }
+
+    private void BuscarCancion()
+    {
+        cancionesFiltradas.Clear();
+        if (!string.IsNullOrWhiteSpace(_newCancion))
+        {
+            cancionesFiltradas = canciones.Where(c => c.Contains(_newCancion, StringComparison.OrdinalIgnoreCase)).ToList();
+        }
+    }
+
+    private void Modi()
+    {
+        if (!string.IsNullOrWhiteSpace(_newCancion) && !string.IsNullOrWhiteSpace(_cancionModificada))
+        {
+            if (canciones.Contains(_cancionModificada))
+            {
+                int index = canciones.IndexOf(_cancionModificada);
+                canciones[index] = _newCancion;
+                _newCancion = string.Empty;
+                _cancionModificada = string.Empty;
+            }
+        }
+    }
+}

@@ -1,0 +1,113 @@
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\ProjectBlazor.Client.staticwebassets.runtime.json
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\appsettings.json
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\BlazorDebugProxy\BrowserDebugHost.dll
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\BlazorDebugProxy\BrowserDebugHost.runtimeconfig.json
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\BlazorDebugProxy\BrowserDebugProxy.dll
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.CodeAnalysis.dll
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.FileFormats.dll
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.NET.WebAssembly.Webcil.dll
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.SymbolStore.dll
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\BlazorDebugProxy\Newtonsoft.Json.dll
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\ProjectBlazor.staticwebassets.runtime.json
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\ProjectBlazor.exe
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\ProjectBlazor.deps.json
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\ProjectBlazor.runtimeconfig.json
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\ProjectBlazor.dll
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\ProjectBlazor.pdb
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\Microsoft.AspNetCore.Components.WebAssembly.dll
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\Microsoft.JSInterop.dll
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\Microsoft.JSInterop.WebAssembly.dll
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\ProjectBlazor.Client.dll
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\ProjectBlazor.Client.pdb
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\ProjectBlazor.csproj.AssemblyReference.cache
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\ProjectBlazor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\ProjectBlazor.AssemblyInfoInputs.cache
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\ProjectBlazor.AssemblyInfo.cs
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\ProjectBlazor.csproj.CoreCompileInputs.cache
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\ProjectBlazor.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\staticwebassets\msbuild.ProjectBlazor.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\staticwebassets\msbuild.build.ProjectBlazor.props
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ProjectBlazor.props
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ProjectBlazor.props
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\scopedcss\bundle\ProjectBlazor.styles.css
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\scopedcss\projectbundle\ProjectBlazor.bundle.scp.css
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\ProjectB.FC873F2E.Up2Date
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\ProjectBlazor.dll
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\refint\ProjectBlazor.dll
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\ProjectBlazor.pdb
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\ProjectBlazor.genruntimeconfig.cache
+C:\Users\dayar\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\ref\ProjectBlazor.dll
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\appsettings.json
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\BlazorDebugProxy\BrowserDebugHost.dll
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\BlazorDebugProxy\BrowserDebugHost.runtimeconfig.json
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\BlazorDebugProxy\BrowserDebugProxy.dll
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.CodeAnalysis.dll
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.FileFormats.dll
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.NET.WebAssembly.Webcil.dll
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.SymbolStore.dll
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\BlazorDebugProxy\Newtonsoft.Json.dll
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\ProjectBlazor.Client.staticwebassets.runtime.json
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\ProjectBlazor.staticwebassets.runtime.json
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\ProjectBlazor.exe
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\ProjectBlazor.deps.json
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\ProjectBlazor.runtimeconfig.json
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\ProjectBlazor.dll
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\ProjectBlazor.pdb
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\Microsoft.AspNetCore.Components.WebAssembly.dll
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\Microsoft.JSInterop.dll
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\Microsoft.JSInterop.WebAssembly.dll
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\ProjectBlazor.Client.dll
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\bin\Debug\net8.0\ProjectBlazor.Client.pdb
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\ProjectBlazor.csproj.AssemblyReference.cache
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\ProjectBlazor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\ProjectBlazor.AssemblyInfoInputs.cache
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\ProjectBlazor.AssemblyInfo.cs
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\ProjectBlazor.csproj.CoreCompileInputs.cache
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\ProjectBlazor.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\staticwebassets\msbuild.ProjectBlazor.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\staticwebassets\msbuild.build.ProjectBlazor.props
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ProjectBlazor.props
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ProjectBlazor.props
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\scopedcss\bundle\ProjectBlazor.styles.css
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\scopedcss\projectbundle\ProjectBlazor.bundle.scp.css
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\ProjectB.FC873F2E.Up2Date
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\ProjectBlazor.dll
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\refint\ProjectBlazor.dll
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\ProjectBlazor.pdb
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\ProjectBlazor.genruntimeconfig.cache
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\ref\ProjectBlazor.dll
+C:\Users\dayar\OneDrive\Documentos\Visual Studio 2022\source\repos\ProjectBlazor\ProjectBlazor\ProjectBlazor\obj\Debug\net8.0\scopedcss\Components\Pages\Estudiantes.razor.rz.scp.css

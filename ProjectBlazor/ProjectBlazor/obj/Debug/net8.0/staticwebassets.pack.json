@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\dayar\\OneDrive\\Documentos\\Visual Studio 2022\\source\\repos\\ProjectBlazor\\ProjectBlazor\\ProjectBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProjectBlazor.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ProjectBlazor.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\dayar\\OneDrive\\Documentos\\Visual Studio 2022\\source\\repos\\ProjectBlazor\\ProjectBlazor\\ProjectBlazor\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\dayar\\OneDrive\\Documentos\\Visual Studio 2022\\source\\repos\\ProjectBlazor\\ProjectBlazor\\ProjectBlazor\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dayar\\OneDrive\\Documentos\\Visual Studio 2022\\source\\repos\\ProjectBlazor\\ProjectBlazor\\ProjectBlazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dayar\\OneDrive\\Documentos\\Visual Studio 2022\\source\\repos\\ProjectBlazor\\ProjectBlazor\\ProjectBlazor\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\dayar\\OneDrive\\Documentos\\Visual Studio 2022\\source\\repos\\ProjectBlazor\\ProjectBlazor\\ProjectBlazor\\wwwroot\\images\\Carrera.jpg",
+      "PackagePath": "staticwebassets\\images\\Carrera.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dayar\\OneDrive\\Documentos\\Visual Studio 2022\\source\\repos\\ProjectBlazor\\ProjectBlazor\\ProjectBlazor\\wwwroot\\images\\Hobbie.jpg",
+      "PackagePath": "staticwebassets\\images\\Hobbie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dayar\\OneDrive\\Documentos\\Visual Studio 2022\\source\\repos\\ProjectBlazor\\ProjectBlazor\\ProjectBlazor\\wwwroot\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\dayar\\OneDrive\\Documentos\\Visual Studio 2022\\source\\repos\\ProjectBlazor\\ProjectBlazor\\ProjectBlazor\\wwwroot\\images\\formacion-academica.jpg",
+      "PackagePath": "staticwebassets\\images\\formacion-academica.jpg"
+    },
+    {
+      "Id": "C:\\Users\\dayar\\OneDrive\\Documentos\\Visual Studio 2022\\source\\repos\\ProjectBlazor\\ProjectBlazor\\ProjectBlazor\\wwwroot\\images\\top.jpg",
+      "PackagePath": "staticwebassets\\images\\top.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ProjectBlazor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ProjectBlazor.props",
+      "PackagePath": "build\\ProjectBlazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ProjectBlazor.props",
+      "PackagePath": "buildMultiTargeting\\ProjectBlazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ProjectBlazor.props",
+      "PackagePath": "buildTransitive\\ProjectBlazor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

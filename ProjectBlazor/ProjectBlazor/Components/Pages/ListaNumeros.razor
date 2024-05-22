@@ -1,0 +1,67 @@
+﻿@page "/listanumeros"
+@rendermode InteractiveServer
+
+<h1>Lista de numeros pares e impares</h1>
+
+<h3>Indica un rango de números</h3>
+
+<div class="form-floating mb-3">
+    <input type="number" class="form-control" id="floatingInput" @bind="_num1">
+    <label for="floatingInput">Primer numero</label>
+</div>
+<div class="form-floating">
+    <input type="number" class="form-control" id="floatingInput" @bind="_num2">
+    <label for="floatingInput">Segundo numero</label>
+</div>
+
+<button class="btn btn-primary mt-3" @onclick="Listar" type="button">Listar numeros</button>
+
+@if (_listaP != null && _listaI != null)
+{
+    <div class="mt-3">
+        <h4>Numeros pares:</h4>
+        <ul>
+            @foreach (var num in _listaP)
+            {
+                <li>@num</li>
+            }
+        </ul>
+    </div>
+    <div class="mt-3">
+        <h4>Numeros impares:</h4>
+        <ul>
+            @foreach (var num in _listaI)
+            {
+                <li>@num</li>
+            }
+        </ul>
+    </div>
+}
+
+@code {
+    private int? _num1;
+    private int? _num2;
+    private List<int>? _listaP;
+    private List<int>? _listaI;
+
+    private void Listar()
+    {
+        _listaP = new List<int>();
+        _listaI = new List<int>();
+
+        int inicio = (_num1.HasValue && _num2.HasValue) ? Math.Min(_num1.Value, _num2.Value) : 0;
+        int fin = (_num1.HasValue && _num2.HasValue) ? Math.Max(_num1.Value, _num2.Value) : 0;
+
+        for (int i = inicio; i <= fin; i++)
+        {
+            if (i % 2 == 0)
+            {
+                _listaP.Add(i);
+            }
+            else
+            {
+                _listaI.Add(i);
+            }
+        }
+    }
+}

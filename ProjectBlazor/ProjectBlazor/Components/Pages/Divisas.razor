@@ -1,0 +1,55 @@
+﻿@page "/divisas"
+@rendermode InteractiveServer
+<h3>Ingrese la catidad en pesos mexicanos para transformar en otras divisas</h3>
+
+<div class="row g-2">
+    <div class="col-md">
+        <div class="form-floating mb-2">
+            <input @bind="_pesos" type="number" class="form-control" id="pesos">
+            <label for="pesos">Pesos:</label>
+        </div>
+    </div>
+</div>
+
+<input @onclick="Convertir" class="btn btn-primary mb-2" type="submit" value="Convertir">
+
+<div class="row g-2">
+    <div class="col-md">
+        <div class="form-floating mb-2">
+            <input value="@(_dolares != null ? _dolares.Value.ToString("F4") : null)" type="number" class="form-control" id="dolares" disabled>
+            <label for="dolares">Dolares:</label>
+        </div>
+    </div>
+</div>
+
+<div class="row g-2">
+    <div class="col-md">
+        <div class="form-floating mb-2">
+            <input value="@(_euros != null ? _euros.Value.ToString("F4") : null)" type="number" class="form-control" id="euros" disabled>
+            <label for="euros">Euros:</label>
+        </div>
+    </div>
+</div>
+
+<div class="row g-2">
+    <div class="col-md">
+        <div class="form-floating mb-2">
+            <input value="@(_libra != null ? _libra.Value.ToString("F4") : null)" type="number" class="form-control" id="libra" disabled>
+            <label for="libra">Libra:</label>
+        </div>
+    </div>
+</div>
+
+@code {
+    private decimal? _pesos;
+    private decimal? _dolares;
+    private decimal? _euros;
+    private decimal? _libra;
+
+    private void Convertir()
+    {
+        _dolares = _pesos / 16.71m;
+        _euros = _pesos / 18.2m;
+        _libra = _pesos / 21.29m;
+    }
+}

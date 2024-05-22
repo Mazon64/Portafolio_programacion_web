@@ -1,0 +1,97 @@
+﻿@page "/estudiantes"
+@rendermode InteractiveServer
+@using System.ComponentModel.DataAnnotations
+
+<h3>Estudiantes</h3>
+
+<h4>Lista de estudiantes</h4>
+
+<div class="form-floating mb-3">
+    <EditForm Model="@newStudent" OnValidSubmit="AddStudent">
+        <DataAnnotationsValidator />
+        <div class="form-group">
+            <label>Nombre:</label>
+            <InputText @bind-Value="newStudent.Name" class="form-control" />
+            <ValidationMessage For="@(() => newStudent.Name)" />
+        </div>
+        <div class="form-group">
+            <label>Correo:</label>
+            <InputText @bind-Value="newStudent.Email" class="form-control" />
+            <ValidationMessage For="@(() => newStudent.Email)" />
+        </div>
+        <div class="form-group">
+            <label>Calificación:</label>
+            <InputNumber @bind-Value="newStudent.Grade" class="form-control" />
+            <ValidationMessage For="@(() => newStudent.Grade)" />
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Guardar</button>
+    </EditForm>
+</div>
+
+@if (studentManager.Students.Any())
+{
+    <div class="form-floating mb-3">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Correo</th>
+                    <th>Calificación</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var student in studentManager.Students)
+                {
+                    <tr>
+                        <td>@student.Name</td>
+                        <td>@student.Email</td>
+                        <td>@student.Grade</td>
+                        <td>
+                            <button class="btn btn-danger" @onclick="() => RemoveStudent(student)">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+                                    <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0" />
+                                </svg>
+                            </button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+
+@code {
+    private Student newStudent = new Student();
+    private School studentManager = new School();
+    private void AddStudent()
+    {
+        if (ValidateModel(newStudent))
+        {
+            studentManager.AddStudent(newStudent);
+            newStudent = new Student();
+            newStudent.ValidationErrors.Clear();
+        }
+    }
+
+    private void RemoveStudent(Student student)
+    {
+        studentManager.RemoveStudent(student);
+    }
+
+    private bool ValidateModel(Student student)
+    {
+        var context = new ValidationContext(student, serviceProvider: null, items: null);
+        var results = new List<ValidationResult>();
+        var isValid = Validator.TryValidateObject(student, context, results, validateAllProperties: true);
+        student.ValidationErrors.Clear();
+        foreach (var validationResult in results)
+        {
+            foreach (var memberName in validationResult.MemberNames)
+            {
+                student.ValidationErrors[memberName] = validationResult.ErrorMessage;
+            }
+        }
+        return isValid;
+    }
+}

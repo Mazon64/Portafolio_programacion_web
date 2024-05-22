@@ -1,0 +1,241 @@
+﻿@page "/inventario"
+@rendermode InteractiveServer
+@using System.ComponentModel.DataAnnotations
+
+<h3>Inventario</h3>
+
+<h4>Ingrese la información del producto a agregar</h4>
+
+@if (!string.IsNullOrEmpty(errorMessage))
+{
+    <div class="alert alert-danger" role="alert">
+        @errorMessage
+    </div>
+}
+
+<div class="form-floating mb-3">
+    <EditForm Model="@newProduct" OnValidSubmit="AddProduct">
+        <DataAnnotationsValidator />
+        <div class="form-group">
+            <label>Número de inventario:</label>
+            <InputNumber @bind-Value="newProduct.InventoryNumber" class="form-control" />
+            <ValidationMessage For="@(() => newProduct.InventoryNumber)" />
+        </div>
+        <div class="form-group">
+            <label>Nombre:</label>
+            <InputText @bind-Value="newProduct.Name" class="form-control" />
+            <ValidationMessage For="@(() => newProduct.Name)" />
+        </div>
+        <div class="form-group">
+            <label>Departamento:</label>
+            <div class="form-check">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="department" id="frutasRadio" value="Frutas" checked="@IsSelected("Frutas")" @onchange="OnChange" />
+                    <label class="form-check-label" for="frutasRadio">Frutas</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="department" id="verdurasRadio" value="Verduras" checked="@IsSelected("Verduras")" @onchange="OnChange" />
+                    <label class="form-check-label" for="verdurasRadio">Verduras</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="department" id="lacteosRadio" value="Lácteos" checked="@IsSelected("Lácteos")" @onchange="OnChange" />
+                    <label class="form-check-label" for="lacteosRadio">Lácteos</label>
+                </div>
+                <ValidationMessage For="@(() => newProduct.Department)" />
+            </div>
+        </div>
+        @if (selectedProduct == null)
+        {
+            <button type="submit" class="btn btn-primary mt-3">Guardar</button>
+        }
+        else
+        {
+            <button type="button" class="btn btn-primary mt-3" @onclick="UpdateProduct">
+                Actualizar
+            </button>
+            <button type="button" class="btn btn-warning mt-3" @onclick="CancelEdit">
+                Cancelar
+            </button>
+        }
+        <div class="form-group">
+            @if (!changeInventaryList)
+            {
+                <button type="button" class="btn btn-secondary mt-3" @onclick="ToggleStockView">
+                    Existencias
+                </button>
+            }
+
+            @if (changeInventaryList)
+            {
+                <button type="button" class="btn btn-secondary mt-3" @onclick="ToggleStockView">
+                    Listado
+                </button>
+            }
+        </div>
+    </EditForm>
+</div>
+@if (changeInventaryList)
+{
+    <div class="form-floating mb-3">
+        <h4>Existencias por Departamento</h4>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Frutas</th>
+                    <th>Verduras</th>
+                    <th>Lácteos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>@GetStockCount("Frutas")</td>
+                    <td>@GetStockCount("Verduras")</td>
+                    <td>@GetStockCount("Lácteos")</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    @if (productManager.Products.Any())
+    {
+        <div class="form-floating mb-3">
+            <h4>Lista de productos</h4>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Número de inventario</th>
+                        <th>Nombre</th>
+                        <th>Departamento</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var product in productManager.Products)
+                    {
+                        <tr>
+                            <td>@product.InventoryNumber</td>
+                            <td>@product.Name</td>
+                            <td>@product.Department</td>
+                            <td>
+                                <button class="btn btn-primary" @onclick="() => EditProduct(product)">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                                        <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+                                        <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z" />
+                                    </svg>
+                                </button>
+                                <button class="btn btn-danger" @onclick="() => RemoveProduct(product)">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+                                        <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0" />
+                                    </svg>
+                                </button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+}
+
+@code {
+    private Product newProduct = new Product();
+    private ProductManager productManager = new ProductManager();
+    private Product selectedProduct;
+    private string errorMessage = "";
+    private string selectedDepartment;
+    private bool IsSelected(string department) => newProduct.Department == department;
+    private bool changeInventaryList = false;
+
+    private void AddProduct()
+    {
+        if (ValidateModel(newProduct))
+        {
+            if (!productManager.IsInventoryNumberDuplicate(newProduct.InventoryNumber))
+            {
+                productManager.AddProduct(newProduct);
+                newProduct = new Product();
+                errorMessage = "";
+            }
+            else
+            {
+                errorMessage = "Ya hay un producto con ese número de inventario";
+            }
+        }
+        else
+        {
+            errorMessage = "Por favor, complete todos los campos correctamente.";
+        }
+    }
+
+    private void RemoveProduct(Product product)
+    {
+        productManager.RemoveProduct(product);
+    }
+
+    private bool ValidateModel(Product product)
+    {
+        var context = new ValidationContext(product, serviceProvider: null, items: null);
+        var results = new List<ValidationResult>();
+        var isValid = Validator.TryValidateObject(product, context, results, validateAllProperties: true);
+        return isValid;
+    }
+
+    private void EditProduct(Product product)
+    {
+        selectedProduct = product;
+        newProduct = new Product
+            {
+                InventoryNumber = product.InventoryNumber,
+                Name = product.Name,
+                Department = product.Department
+            };
+    }
+
+    private void UpdateProduct()
+    {
+        if (ValidateModel(newProduct))
+        {
+            if (!productManager.IsInventoryNumberDuplicate(newProduct.InventoryNumber) || newProduct.InventoryNumber == selectedProduct.InventoryNumber)
+            {
+                selectedProduct.InventoryNumber = newProduct.InventoryNumber;
+                selectedProduct.Name = newProduct.Name;
+                selectedProduct.Department = newProduct.Department;
+                newProduct = new Product();
+                selectedProduct = null;
+                errorMessage = "";
+            }
+            else
+            {
+                errorMessage = "Ya hay un producto con ese número de inventario";
+            }
+        }
+        else
+        {
+            errorMessage = "Por favor, complete todos los campos correctamente.";
+        }
+    }
+
+    private void CancelEdit()
+    {
+        newProduct = new Product();
+        selectedProduct = null;
+        errorMessage = "";
+    }
+
+    private void OnChange(ChangeEventArgs e)
+    {
+        newProduct.Department = e.Value.ToString();
+    }
+
+    private void ToggleStockView()
+    {
+        changeInventaryList = !changeInventaryList;
+    }
+
+    private int GetStockCount(string department)
+    {
+        return productManager.Products.Count(p => p.Department == department);
+    }
+}

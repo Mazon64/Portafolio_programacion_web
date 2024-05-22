@@ -1,0 +1,52 @@
+﻿@page "/numerosprimos"
+@rendermode InteractiveServer
+
+<h1>Números primos</h1>
+
+<h3>Indica hasta que número buscar</h3>
+
+<div class="form-floating mb-3">
+    <input type="number" class="form-control" id="floatingInput" @bind="@_numero">
+    <label for="floatingInput">Número</label>
+</div>
+
+<button class="btn btn-primary mb-3" @onclick="Encontrar">Mostrar numeros primos</button>
+
+@if (primos != null)
+{
+    <ul>
+        @foreach (var primo in primos)
+        {
+            <li>@primo</li>
+        }
+    </ul>
+}
+
+@code {
+    private int? _numero;
+    private List<int>? primos;
+
+    private void Encontrar()
+    {
+        primos = new List<int>();
+
+        for (int i = 2; i <= _numero; i++)
+        {
+            bool esPrimo = true;
+
+            for (int j = 2; j <= Math.Sqrt(i); j++)
+            {
+                if (i % j == 0)
+                {
+                    esPrimo = false;
+                    break;
+                }
+            }
+
+            if (esPrimo)
+            {
+                primos.Add(i);
+            }
+        }
+    }
+}

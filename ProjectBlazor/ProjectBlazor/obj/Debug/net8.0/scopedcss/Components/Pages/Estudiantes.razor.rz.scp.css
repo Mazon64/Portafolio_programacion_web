@@ -1,0 +1,9 @@
+input[type=number][b-b2jtb62k0n]::-webkit-inner-spin-button,
+input[type=number][b-b2jtb62k0n]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number][b-b2jtb62k0n] {
+    -moz-appearance: textfield;
+}

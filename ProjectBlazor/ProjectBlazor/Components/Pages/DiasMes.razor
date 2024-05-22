@@ -1,0 +1,75 @@
+﻿@page "/diasmes"
+@rendermode InteractiveServer
+<h3>Ingrese año y mes para calcular la cantidad de días que tiene</h3>
+
+<div class="row g-2">
+    <div class="col-md">
+        <div class="form-floating mb-2">
+            <input @bind="_year" type="number" class="form-control" id="year">
+            <label for="year">Año</label>
+        </div>
+    </div>
+</div>
+
+<div class="row g-2">
+    <div class="col-md">
+        <div class="form-floating mb-2">
+            <select @bind="_month" class="form-select" id="mes">
+                <option selected>Mes</option>
+                <option value="1">Enero</option>
+                <option value="2">Febrero</option>
+                <option value="3">Marzo</option>
+                <option value="4">Abril</option>
+                <option value="5">Mayo</option>
+                <option value="6">Junio</option>
+                <option value="7">Julio</option>
+                <option value="8">Agosto</option>
+                <option value="9">Septiembre</option>
+                <option value="10">Octubre</option>
+                <option value="11">Noviembre</option>
+                <option value="12">Diciembre</option>
+            </select>
+            <label for="mes">Meses</label>
+        </div>
+    </div>
+</div>
+
+<input @onclick="Calcular" class="btn btn-primary mb-2" type="submit" value="Calcular">
+
+<div class="row g-2">
+    <div class="col-md">
+        <div class="form-floating mb-2">
+            <input value="@(_days)" type="number" class="form-control" id="dias" disabled>
+            <label for="dias">Dias:</label>
+        </div>
+    </div>
+</div>
+
+@code {
+    private int _year;
+    private int _month;
+    private int _days;
+
+    private void Calcular()
+    {
+        if (_month == 1 || _month == 3 || _month == 5 || _month == 7 || _month == 8 || _month == 10 || _month == 12)
+        {
+            _days = 31;
+        }
+        else if (_month == 4 || _month == 6 || _month == 9 || _month == 11)
+        {
+            _days = 30;
+        }
+        else if (_month == 2)
+        {
+            if (_year % 4 == 0 && (_year % 100 != 0 || _year % 400 == 0))
+            {
+                _days = 29;
+            }
+            else
+            {
+                _days = 28;
+            }
+        }
+    }
+}

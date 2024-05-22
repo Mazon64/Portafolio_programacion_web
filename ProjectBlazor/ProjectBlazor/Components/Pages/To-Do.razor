@@ -1,0 +1,55 @@
+﻿@page "/to-do"
+@rendermode InteractiveServer
+
+<h3>To_Do list</h3>
+
+<h4>Lista de tareas por hacer</h4>
+
+<div class="form-floating mb-3">
+    <input type="text" class="form-control" id="floatingInput" @bind="_newToDo">
+    <label for="floatingInput">Tarea</label>
+</div>
+
+<button type="button" class="btn btn-primary mb-3" @onclick="AgregarTarea">Agregar</button>
+
+@if (tareas.Count > 0)
+{
+    <ul class="list-group mt-3">
+        @foreach (var _newToDo in tareas)
+        {
+            <li class="list-group-item">
+                @_newToDo
+                <button type="button" class="btn btn-danger btn-sm float-end" @onclick="() => EliminarTarea(_newToDo)">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+                        <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0" />
+                    </svg>
+                </button>
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <li class="list-group-item">
+        <p>No hay tareas pendientes</p>
+    </li>
+}
+
+@code {
+    private string? _newToDo;
+    List<string> tareas = new List<string>();
+
+    private void AgregarTarea()
+    {
+        if (!string.IsNullOrWhiteSpace(_newToDo))
+        {
+            tareas.Add(_newToDo);
+            _newToDo = string.Empty;
+        }
+    }
+
+    private void EliminarTarea(string _newToDo)
+    {
+        tareas.Remove(_newToDo);
+    }
+}
