@@ -1,53 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\dayar\\OneDrive\\Documentos\\Visual Studio 2022\\source\\repos\\ProjectBlazor\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A1AD967A-E1C6-43BB-856D-35AC6C38646D}|ProjectBlazor\\ProjectBlazor\\ProjectBlazor.csproj|c:\\users\\dayar\\onedrive\\documentos\\visual studio 2022\\source\\repos\\projectblazor\\projectblazor\\projectblazor\\models\\school.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1AD967A-E1C6-43BB-856D-35AC6C38646D}|ProjectBlazor\\ProjectBlazor\\ProjectBlazor.csproj|solutionrelative:projectblazor\\projectblazor\\models\\school.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1AD967A-E1C6-43BB-856D-35AC6C38646D}|ProjectBlazor\\ProjectBlazor\\ProjectBlazor.csproj|c:\\users\\dayar\\onedrive\\documentos\\visual studio 2022\\source\\repos\\projectblazor\\projectblazor\\projectblazor\\components\\pages\\estudiantes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A1AD967A-E1C6-43BB-856D-35AC6C38646D}|ProjectBlazor\\ProjectBlazor\\ProjectBlazor.csproj|solutionrelative:projectblazor\\projectblazor\\components\\pages\\estudiantes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Estudiantes.razor",
-              "DocumentMoniker": "C:\\Users\\dayar\\OneDrive\\Documentos\\Visual Studio 2022\\source\\repos\\ProjectBlazor\\ProjectBlazor\\ProjectBlazor\\Components\\Pages\\Estudiantes.razor",
-              "RelativeDocumentMoniker": "ProjectBlazor\\ProjectBlazor\\Components\\Pages\\Estudiantes.razor",
-              "ToolTip": "C:\\Users\\dayar\\OneDrive\\Documentos\\Visual Studio 2022\\source\\repos\\ProjectBlazor\\ProjectBlazor\\ProjectBlazor\\Components\\Pages\\Estudiantes.razor",
-              "RelativeToolTip": "ProjectBlazor\\ProjectBlazor\\Components\\Pages\\Estudiantes.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-05T01:36:44.198Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "School.cs",
-              "DocumentMoniker": "C:\\Users\\dayar\\OneDrive\\Documentos\\Visual Studio 2022\\source\\repos\\ProjectBlazor\\ProjectBlazor\\ProjectBlazor\\Models\\School.cs",
-              "RelativeDocumentMoniker": "ProjectBlazor\\ProjectBlazor\\Models\\School.cs",
-              "ToolTip": "C:\\Users\\dayar\\OneDrive\\Documentos\\Visual Studio 2022\\source\\repos\\ProjectBlazor\\ProjectBlazor\\ProjectBlazor\\Models\\School.cs",
-              "RelativeToolTip": "ProjectBlazor\\ProjectBlazor\\Models\\School.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T01:36:11.135Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
